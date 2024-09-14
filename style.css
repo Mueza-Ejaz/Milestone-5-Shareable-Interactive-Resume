@@ -1,0 +1,166 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #21a8ca63;
+}
+
+h1 {
+    text-align: center;
+    color: #181515;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(247, 244, 244);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+fieldset {
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #af90ad85;
+    border: 2px solid #4182c06c;
+    transition: background-color 0.3s ease-in-out;
+}
+
+fieldset:hover {
+    background-color: rgba(98, 141, 158, 0.623)
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d10f90;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+}
+
+input,
+textarea {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    outline: none;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #973d849d;
+    transform: scale(1.05);
+}
+
+#resumeOutput {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3498db;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resumeOutput:hover {
+    background-color: #f9f9f9;
+}
+
+#resumeOutput p {
+    color: #d13bb1c0;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+#resumeOutput p:hover {
+    color: #db109ed5;
+}
+
+#profile-picture-preview {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(150, 13, 13, 0.568);
+    object-fit: cover; /* Ensure the image covers the circle properly */
+}
+
+#profile-picture-preview img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    border: 2px solid #b81313d3;
+    box-shadow: 0 4px 8px rgba(182, 10, 10, 0.795);
+}
+
+button.edit, button.save, button.download {
+    width:  150px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #9daf4c; /* Same style as edit and save */
+    color: white;
+    cursor: pointer;
+    margin-left: 90px;
+}
+
+button.download {
+    background-color: #c480b896; /* Different color for download button */
+    width: 20px;
+}
+
+button:hover {
+    opacity: 0.98;
+}
+
+#resumeOutput a {
+    color: #0ae0bd;
+    text-decoration: none;
+}
+
+#resumeOutput a:hover {
+    text-decoration: underline;
+}
+
